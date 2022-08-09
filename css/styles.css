@@ -1,0 +1,248 @@
+:root{
+    --brand-color1: #2F303A;/*background*/
+    --brand-color2: #2196F3;
+    --brand-font:'Roboto';
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 0%;  
+    margin: 0%; 
+    line-height: 30px;
+}
+
+.logo{
+    /*align-self: start;
+    position: absolute;*/
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    
+    
+    /* identical to box height */
+    letter-spacing: 0.03em;
+    color: #2196F3;
+}
+
+.menu, .contact{
+    text-decoration: none;
+    color: var(--brand-color1);
+    font-weight: 500;
+    font-size: 14px;
+    padding: 25px 15px 0px 15px;
+    padding-top: 25px;
+    display: inline;
+}
+.menu:hover {
+    color:var(--brand-color2)
+}
+.menu:link{
+    color:var(--brand-color1)
+}
+body{
+    align-items: center;
+    font-family: var(--brand-font);
+    text-align: center;
+}
+.first-button{
+    color:#FFFFFF;
+    width: 197px;
+    height: 30px;
+    padding: 20px 20px;
+    background-color: var(--brand-color2);
+    border-bottom: none;
+
+    margin: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    /* identical to box height, or 188% */
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+}
+
+a{
+    text-decoration: none; /*sin subrayado*/
+}
+
+
+.flex-container{ /*index*/
+    display: flex;
+    justify-content: center;
+    /*content: box 20%;*/
+    
+}
+
+.container{
+    box-sizing: border-box;
+    max-width: calc(1200px);
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.bg{/* position: absolute; index*/
+    width: 1600px;
+    height: 600px;
+    top: 80px;
+
+    background: var(--brand-color1);
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+h1{
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0.06em;
+    text-align: center;
+    padding: 200px 0 0 0;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.first-buttton{/* Solicite nuestro servicio */
+    width: 197px;
+    height: 30px;
+    padding: 20px 10px 20px 10px;
+    background-color: var(--brand-color2);
+    border-bottom: none;
+    border-radius: 0px;
+    margin: 10px 10px 10px 10px;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    /* identical to box height, or 188% */
+
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+
+    color: #FFFFFF;
+}
+
+.button-main{
+    background: #F5F4FA;
+    border: none;
+    
+    padding: 10px 10px 15px 10px;
+    
+    width: 120px;
+    height: 36px;
+    /* left: calc(50% - 98px/2 - 16px);
+    top: calc(50% - 26px/2 - 735px);*/
+
+    font-family: var(--brand-color2);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #212121;
+}
+.button-main:hover{
+    background: var(--brand-color2);
+    color:white;
+    border: none;
+    font-weight: 500;
+}
+.text-containers{
+    padding: 25px;
+    margin: 25px;
+    width: 250px;
+}
+
+ul{
+    list-style: none;
+    
+}
+.nine-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: left;
+    justify-content: center;
+   
+    /*left: calc(50% - 370px/2 - 400px);*/
+}
+img{
+    width: 100%;
+    justify-content: center;
+}
+figure{
+    margin: 10px;
+    padding: 10px;
+}
+figure:hover{
+    box-shadow: rgba(0.24, 0.24, 0.24, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+    color: #212121;
+    text-decoration: #212121;
+}
+.img-catalogue{
+    box-sizing: content-box;
+    width: 30%;
+    margin-right: 30px;
+    
+
+}
+
+footer{
+    width: 1600px;
+    height: 252px;
+    left: 0px;
+    
+    padding: 10px;
+    background: var(--brand-color1);
+    display: flex;
+
+    /*position: absolute;*/
+
+    font-family: var(--brand-font);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+/* or 171% */
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-aling{
+    
+    list-style: none; 
+    display: flex;
+}
+footer a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.6);
+}
+footer a:hover{
+    color: var(--brand-color2);
+}
+footer img:hover{
+    fill-opacity: var(--brand-color2);
+}
+.rrss{
+    margin-left: 50px;
+    margin-top: 30px;
+    list-style: none;  
+}
+.circle{
+    display: inline;
+    width: 9.38px;
+}
+ul.rrss-li{
+    display: inline-flex;
+}
